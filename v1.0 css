@@ -1,0 +1,43 @@
+.css-1li7dvq,
+.css-l3ykv8 {
+    background-image: url('https://img.paulzzh.com/touhou/random?size=pc&tag=koishi') !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.css-l3ykv8::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.css-1li7dvq>* {
+    position: relative;
+    backdrop-filter: blur(6px);
+    z-index: 2;
+}
+
+.css-l3ykv8>* {
+    position: relative;
+    backdrop-filter: blur(3px);
+    z-index: 2;
+}
+
+html {
+    --background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.MuiBox-root,
+.base-container {
+    background-color: rgba(0, 0, 0, 0.0) !important;
+
+    >section {
+        background-color: rgba(0, 0, 0, 0.1) !important;
+    }
+}
